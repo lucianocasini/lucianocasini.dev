@@ -1,0 +1,30 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background-color: rgba(32, 32, 32, 0.9);
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  a:hover {
+    color: #ffd100;
+  }
+  .menu-items {
+    font-size: 20px;
+  }
+  .social-icons {
+    .icon {
+      font-size: 22px;
+      &.download-cv {
+        font-size: 20px;
+      }
+    }
+  }
+}
