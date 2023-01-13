@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/styles/general.css';
 import AboutMe from './components/AboutMe';
+import { Contact } from './components/Contact';
 import Experience from './components/Experience';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 }
