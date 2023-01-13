@@ -8,19 +8,31 @@ export const Contact = () => {
       <h1>¿Necesitas un developer en tu equipo?</h1>
       <p>¡Hablemos!</p>
       <div className="buttons">
-        <a href="mailto:lucianoo.casini@gmail.com" className="btn">
+        <a href="mailto:contacto@lucianocasini.dev" className="btn">
           Envíame un mail
         </a>
         <div className="social-networks">
-          <a href="https://www.linkedin.com/in/lucianocasini/" title="Linkedin">
+          <a
+            href="https://www.linkedin.com/in/lucianocasini/"
+            title="Linkedin"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedinIn className="icon linkedin" />
           </a>
-          <a href="https://github.com/lucianocasini/" title="Github">
+          <a
+            href="https://github.com/lucianocasini/"
+            title="Github"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub className="icon" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1xkfPy5p9JjvhJk9LGJ7aI-cb2UUxbIKd/view"
+            href="https://lucianocasini.dev/cv"
             title="Descargar CV"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaDownload className="icon download-cv" />
           </a>
