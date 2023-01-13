@@ -10,7 +10,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Multimedios Agroempresario</h3>
-            <span>Backend developer - jun. 2020 - feb. 2021</span>
+            <span>Backend developer - Freelance - jun. 2020 - feb. 2021</span>
             <ul>
               <li>
                 - Desarrollé el backend de la nueva plataforma del diario.
@@ -32,7 +32,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Arido Software</h3>
-            <span>Frontend developer - may. 2017 - ago. 2018</span>
+            <span>Frontend developer - Fulltime - may. 2017 - ago. 2018</span>
             <ul>
               <li>
                 - Desarrollé funcionalidades a las aplicaciones existentes.
