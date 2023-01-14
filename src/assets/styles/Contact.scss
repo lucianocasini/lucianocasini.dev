@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 42px;
   margin-bottom: 150px;
   h1 {
     font-size: 32px;
@@ -15,14 +15,18 @@
   .buttons {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 60px;
 
     .btn {
-      background-color: #ffd100;
+      align-self: center;
+      background-color: #ffee32;
       color: #202020;
       font-size: 20px;
       padding: 16px 30px;
       border-radius: 26px;
+      &:hover {
+        background-color: #ffd100;
+      }
     }
     .social-networks {
       display: flex;
@@ -30,6 +34,9 @@
       justify-content: center;
       align-items: center;
       a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         .icon {
           font-size: 28px;
 
@@ -39,6 +46,10 @@
           &.download-cv {
             font-size: 26px;
           }
+        }
+
+        &:hover {
+          color: #ffd100;
         }
       }
     }
