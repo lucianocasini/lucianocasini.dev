@@ -69,7 +69,7 @@ const Projects = ({ onLoadImage }) => {
             <div className="header">
               <h2>PRODE MUNDIAL</h2>
               <p>
-                PWA del clásico Prode - Temática mundial
+                PWA de Prode Mundial
                 <a
                   href="https://github.com/lucianocasini?tab=repositories&q=prode"
                   target="_blank"
@@ -81,10 +81,9 @@ const Projects = ({ onLoadImage }) => {
             </div>
             <p>
               Pagina web de apuestas deportivas, 3 lenguajes disponibles (EN,
-              ES, PT), Disponible unicamente en 3 regiones (ARG, USA, BR),
-              Diversos premios dependiendo de cada region, Back Office del
-              administrador, Custom Metrics incorporadas, Notificaciones Push y
-              Email
+              ES, PT), disponible únicamente en 3 regiones (ARG, USA, BR),
+              diversos premios según región, back office admin, custom metrics y
+              notificaciones push / email.
             </p>
             <ul>
               <li>
