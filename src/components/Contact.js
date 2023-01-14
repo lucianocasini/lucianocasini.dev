@@ -18,7 +18,7 @@ export const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedinIn className="icon linkedin" />
+            <FaLinkedinIn className="icon linkedin" /> <span>Linkedin</span>
           </a>
           <a
             href="https://github.com/lucianocasini/"
@@ -26,7 +26,7 @@ export const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub className="icon" />
+            <FaGithub className="icon" /> <span>Github</span>
           </a>
           <a
             href="https://lucianocasini.dev/cv"
@@ -34,7 +34,8 @@ export const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaDownload className="icon download-cv" />
+            <FaDownload className="icon download-cv" />{' '}
+            <span>Descargar CV</span>
           </a>
         </div>
       </div>
