@@ -51,3 +51,37 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  #projects {
+    h2 {
+      text-align: center;
+    }
+    div {
+      article {
+        flex-direction: column;
+        gap: 20px;
+        img {
+          width: 100% !important;
+        }
+        .details {
+          margin-left: 0 !important;
+          .header p {
+            justify-content: center;
+          }
+          & > p {
+            text-align: center;
+            margin-bottom: 30px !important;
+          }
+          ul {
+            justify-content: center;
+
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
