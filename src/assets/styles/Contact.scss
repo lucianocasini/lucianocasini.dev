@@ -1,0 +1,76 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+  margin-bottom: 150px;
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    font-size: 24px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    .btn {
+      align-self: center;
+      background-color: #ffee32;
+      color: #202020;
+      font-size: 20px;
+      padding: 16px 30px;
+      border-radius: 26px;
+      &:hover {
+        background-color: #ffd100;
+      }
+    }
+    .social-networks {
+      display: flex;
+      gap: 28px;
+      justify-content: center;
+      align-items: center;
+      a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .icon {
+          font-size: 28px;
+
+          &.linkedin {
+            font-size: 32px;
+          }
+          &.download-cv {
+            font-size: 26px;
+          }
+        }
+
+        &:hover {
+          color: #ffd100;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    margin-bottom: 60px;
+    .buttons {
+      .social-networks {
+        flex-direction: column;
+        a {
+          .icon {
+            font-size: 26px !important;
+          }
+          .icon.download-cv {
+            font-size: 24px !important;
+          }
+        }
+      }
+    }
+  }
+}
