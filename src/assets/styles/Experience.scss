@@ -81,6 +81,12 @@
 
 @media screen and (max-width: 768px) {
   #experience {
+    h2 {
+      text-align: center;
+    }
+    .timeline-container {
+      width: 100%;
+    }
     .timeline-container:before {
       left: 8px !important;
       width: 2px !important;
