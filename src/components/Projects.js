@@ -1,13 +1,16 @@
 import React from 'react';
 import '../assets/styles/Projects.scss';
+import playflixImg from '../assets/images/playflix-web.png';
+import prodeImg from '../assets/images/prode-web.png';
+import pineappleImg from '../assets/images/pineapple-web.png';
 
-const Projects = () => {
+const Projects = ({ onLoadImage }) => {
   return (
     <section id="projects">
       <h2>Proyectos</h2>
       <div>
         <article className="project">
-          <img src="https://snipboard.io/JBD2Yd.jpg" alt="Playflix" />
+          <img src={playflixImg} alt="Playflix" onLoad={onLoadImage} />
           <div className="details">
             <div className="header">
               <h2>PLAYFLIX</h2>
@@ -61,7 +64,7 @@ const Projects = () => {
         </article>
 
         <article className="project">
-          <img src="https://snipboard.io/Dp1fXd.jpg" alt="Prode" />
+          <img src={prodeImg} alt="Prode" onLoad={onLoadImage} />
           <div className="details">
             <div className="header">
               <h2>PRODE MUNDIAL</h2>
@@ -113,7 +116,7 @@ const Projects = () => {
         </article>
 
         <article className="project">
-          <img src="https://snipboard.io/E9Vs2i.jpg" alt="Pineapple" />
+          <img src={pineappleImg} alt="Pineapple" onLoad={onLoadImage} />
           <div className="details">
             <div className="header">
               <h2>PINEAPPLE</h2>
