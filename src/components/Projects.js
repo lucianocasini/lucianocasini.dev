@@ -18,7 +18,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="devicon-github-original"></i>
+                  <i className="devicon-github-original"></i>
                 </a>
               </p>
             </div>
@@ -29,31 +29,31 @@ const Projects = () => {
             </p>
             <ul>
               <li>
-                <i class="devicon-react-original colored"></i>
+                <i className="devicon-react-original colored"></i>
                 <span>ReactJS</span>
               </li>
               <li>
-                <i class="devicon-redux-original colored"></i>
+                <i className="devicon-redux-original colored"></i>
                 <span>Redux</span>
               </li>
               <li>
-                <i class="devicon-sass-original colored"></i>
+                <i className="devicon-sass-original colored"></i>
                 <span>Sass</span>
               </li>
               <li>
-                <i class="devicon-nodejs-plain colored"></i>
+                <i className="devicon-nodejs-plain colored"></i>
                 <span>NodeJS</span>
               </li>
               <li>
-                <i class="devicon-express-original colored"></i>
+                <i className="devicon-express-original colored"></i>
                 <span>ExpressJS</span>
               </li>
               <li>
-                <i class="devicon-postgresql-plain colored"></i>
+                <i className="devicon-postgresql-plain colored"></i>
                 <span>PostgreSQL</span>
               </li>
               <li>
-                <i class="devicon-sequelize-plain colored"></i>
+                <i className="devicon-sequelize-plain colored"></i>
                 <span>Sequelize</span>
               </li>
             </ul>
@@ -72,7 +72,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="devicon-github-original"></i>
+                  <i className="devicon-github-original"></i>
                 </a>
               </p>
             </div>
@@ -85,27 +85,27 @@ const Projects = () => {
             </p>
             <ul>
               <li>
-                <i class="devicon-react-original colored"></i>
+                <i className="devicon-react-original colored"></i>
                 <span>ReactJS</span>
               </li>
               <li>
-                <i class="devicon-redux-original colored"></i>
+                <i className="devicon-redux-original colored"></i>
                 <span>Redux</span>
               </li>
               <li>
-                <i class="devicon-nodejs-plain colored"></i>
+                <i className="devicon-nodejs-plain colored"></i>
                 <span>NodeJS</span>
               </li>
               <li>
-                <i class="devicon-express-original colored"></i>
+                <i className="devicon-express-original colored"></i>
                 <span>ExpressJS</span>
               </li>
               <li>
-                <i class="devicon-mongodb-plain colored"></i>
+                <i className="devicon-mongodb-plain colored"></i>
                 <span>MongoDB</span>
               </li>
               <li>
-                <i class="devicon-firebase-plain colored"></i>
+                <i className="devicon-firebase-plain colored"></i>
                 <span>Firebase</span>
               </li>
             </ul>
@@ -124,7 +124,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="devicon-github-original"></i>
+                  <i className="devicon-github-original"></i>
                 </a>
               </p>
             </div>
@@ -137,31 +137,31 @@ const Projects = () => {
             </p>
             <ul>
               <li>
-                <i class="devicon-react-original colored"></i>
+                <i className="devicon-react-original colored"></i>
                 <span>ReactJS</span>
               </li>
               <li>
-                <i class="devicon-redux-original colored"></i>
+                <i className="devicon-redux-original colored"></i>
                 <span>Redux</span>
               </li>
               <li>
-                <i class="devicon-nodejs-plain colored"></i>
+                <i className="devicon-nodejs-plain colored"></i>
                 <span>NodeJS</span>
               </li>
               <li>
-                <i class="devicon-express-original colored"></i>
+                <i className="devicon-express-original colored"></i>
                 <span>ExpressJS</span>
               </li>
               <li>
-                <i class="devicon-postgresql-plain colored"></i>
+                <i className="devicon-postgresql-plain colored"></i>
                 <span>PostgreSQL</span>
               </li>
               <li>
-                <i class="devicon-sequelize-plain colored"></i>
+                <i className="devicon-sequelize-plain colored"></i>
                 <span>Sequelize</span>
               </li>
               <li>
-                <i class="devicon-materialui-plain colored"></i>
+                <i className="devicon-materialui-plain colored"></i>
                 <span>MaterialUI</span>
               </li>
             </ul>
