@@ -6,6 +6,22 @@ const Experience = () => {
     <section id="experience">
       <h2>Experiencia</h2>
       <div className="timeline-container">
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>ÜMA Health AI</h3>
+            <span>Fullstack developer - ene. 2023 - actualidad</span>
+            <ul>
+              <li>
+                ÜMA es una plataforma inteligente de salud y bienestar que
+                innova en la gestión de servicios de salud, apalancandose en
+                Inteligencia Artificial para lograr una experiencia más
+                eficiente dentro de la plataforma.
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
